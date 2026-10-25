@@ -8,7 +8,7 @@ Official statutes and ordinances. These are distinct from the explanatory handbo
 
 ### Federal
 
-- https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap45-subchapI-sec3604.htm
+- https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section3604&num=0&edition=prelim
 
 ### California
 
@@ -24,6 +24,12 @@ Official statutes and ordinances. These are distinct from the explanatory handbo
 ### Oakland
 
 - https://library.municode.com/ca/oakland/codes/code_of_ordinances?nodeId=TIT8HESARE_CH8.22REREADJUST
+
+### San Francisco
+
+- https://www.sf.gov/information--sec-372-definitions
+- https://www.sf.gov/information--sec-373-rent-limitations
+- https://www.sf.gov/information--sec-379-evictions
 
 ## US Tenant Handbooks and Guides
 
