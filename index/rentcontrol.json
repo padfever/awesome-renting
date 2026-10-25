@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "jurisdictions": [
+    {
+      "id": "us",
+      "parentId": null,
+      "type": "federal",
+      "name": "United States of America",
+      "state": null,
+      "slug": "federal"
+    },
+    {
+      "id": "us-ca",
+      "parentId": "us",
+      "type": "state",
+      "name": "California",
+      "state": "CA",
+      "slug": "ca"
+    },
+    {
+      "id": "us-ca-oakland",
+      "parentId": "us-ca",
+      "type": "city",
+      "name": "Oakland",
+      "state": "CA",
+      "slug": "oakland"
+    }
+  ],
+  "sources": [
+    {
+      "id": "us-42-3604",
+      "jurisdictionId": "us",
+      "sourceType": "statute",
+      "title": "Fair Housing Act — discrimination in sale or rental (2023 Edition)",
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap45-subchapI-sec3604.htm",
+      "section": "42 U.S.C. § 3604",
+      "authority": "U.S. Government Publishing Office",
+      "effectiveStart": null,
+      "sourceNote": "The configured official source is the 2023 edition; subsequent amendments require separate review."
+    },
+    {
+      "id": "ca-civ-1950-5",
+      "jurisdictionId": "us-ca",
+      "sourceType": "statute",
+      "title": "Residential security deposits",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1950.5.&lawCode=CIV",
+      "section": "California Civil Code § 1950.5",
+      "authority": "California Legislative Information",
+      "effectiveStart": "2026-01-01"
+    },
+    {
+      "id": "ca-civ-1954",
+      "jurisdictionId": "us-ca",
+      "sourceType": "statute",
+      "title": "Landlord entry into a dwelling unit",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1954.&lawCode=CIV",
+      "section": "California Civil Code § 1954",
+      "authority": "California Legislative Information",
+      "effectiveStart": "2019-01-01"
+    },
+    {
+      "id": "ca-civ-1941-1",
+      "jurisdictionId": "us-ca",
+      "sourceType": "statute",
+      "title": "Habitability standards",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1941.1.&lawCode=CIV",
+      "section": "California Civil Code § 1941.1",
+      "authority": "California Legislative Information",
+      "effectiveStart": "2026-01-01"
+    },
+    {
+      "id": "ca-civ-1942",
+      "jurisdictionId": "us-ca",
+      "sourceType": "statute",
+      "title": "Repair of dilapidations and tenant remedies",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1942.&lawCode=CIV",
+      "section": "California Civil Code § 1942",
+      "authority": "California Legislative Information",
+      "effectiveStart": null
+    },
+    {
+      "id": "ca-civ-827",
+      "jurisdictionId": "us-ca",
+      "sourceType": "statute",
+      "title": "Notice for changes to rental terms",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=827.&lawCode=CIV",
+      "section": "California Civil Code § 827",
+      "authority": "California Legislative Information",
+      "effectiveStart": null
+    },
+    {
+      "id": "ca-civ-1946-2",
+      "jurisdictionId": "us-ca",
+      "sourceType": "statute",
+      "title": "Just-cause termination and rent-cap exemptions",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1946.2.&lawCode=CIV",
+      "section": "California Civil Code § 1946.2",
+      "authority": "California Legislative Information",
+      "effectiveStart": null
+    },
+    {
+      "id": "ca-civ-1947-12",
+      "jurisdictionId": "us-ca",
+      "sourceType": "statute",
+      "title": "Residential rent increases and exemptions",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1947.12.&lawCode=CIV",
+      "section": "California Civil Code § 1947.12",
+      "authority": "California Legislative Information",
+      "effectiveStart": null
+    },
+    {
+      "id": "ca-civ-789-3",
+      "jurisdictionId": "us-ca",
+      "sourceType": "statute",
+      "title": "Prohibited lockouts and utility shutoffs",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=789.3.&lawCode=CIV",
+      "section": "California Civil Code § 789.3",
+      "authority": "California Legislative Information",
+      "effectiveStart": null
+    },
+    {
+      "id": "oakland-omc-8-22",
+      "jurisdictionId": "us-ca-oakland",
+      "sourceType": "ordinance",
+      "title": "Oakland Residential Rent Adjustments and Evictions",
+      "url": "https://library.municode.com/ca/oakland/codes/code_of_ordinances?nodeId=TIT8HESARE_CH8.22REREADJUST",
+      "section": "Oakland Municipal Code Chapter 8.22",
+      "authority": "City of Oakland Municipal Code",
+      "effectiveStart": null
+    }
+  ],
+  "helpResources": [
+    {
+      "jurisdictionId": "us",
+      "title": "U.S. Department of Housing and Urban Development — housing discrimination",
+      "url": "https://www.hud.gov/topics/housing_discrimination",
+      "description": "Official federal information and complaint resources for housing discrimination.",
+      "official": true
+    },
+    {
+      "jurisdictionId": "us-ca",
+      "title": "California Courts — eviction and housing self-help",
+      "url": "https://selfhelp.courts.ca.gov/eviction-tenant",
+      "description": "Official California Courts housing and eviction information.",
+      "official": true
+    },
+    {
+      "jurisdictionId": "us-ca-oakland",
+      "title": "Oakland Rent Adjustment Program",
+      "url": "https://www.oaklandca.gov/topics/rent-adjustment-program",
+      "description": "Official City of Oakland program information and contacts.",
+      "official": true
+    }
+  ]
+}

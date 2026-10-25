@@ -2,6 +2,20 @@
 
 Any thing and every thing renters might find useful.
 
+## Rentcontrol primary index
+
+[Rentcontrol](https://rentcontrol.terragohan.com) uses [`index/rentcontrol.json`](index/rentcontrol.json) as its curated jurisdiction, primary-source, and official-help index. The application consumes validated immutable snapshots of this file rather than parsing this README.
+
+The index has a top-level `schemaVersion` and three collections:
+
+- `jurisdictions`: stable IDs, parent IDs, federal/state/city types, names, state codes, and slugs.
+- `sources`: statutes, ordinances, regulations, court rules, and published decisions from official sources. Every entry needs a stable ID, jurisdiction reference, source type, title, HTTPS URL, section, authority, and effective-start date or `null`. Use `sourceNote` for material currency limitations.
+- `helpResources`: official help matched to a jurisdiction. These records are separate from legal evidence and never support generated legal claims.
+
+All changes require a reviewed pull request. Reviewers must check jurisdiction relationships, source authenticity, currentness, effective dates, and the distinction between primary law and secondary guidance. Agents may propose updates but cannot merge them or write to the production index directly. Do not add a tenant handbook, agency explanation, advocacy guide, law-firm article, or other secondary source to `sources`.
+
+Rentcontrol validates the index and stores snapshots before use. An invalid index must not replace the last valid snapshot. Corrections and new coverage should identify the underlying official legal instrument, not merely link to a summary.
+
 ## US Tenant Handbooks and Guides
 
 Resources from non-profits, a state's attorney general or consumer protection division, etc.
