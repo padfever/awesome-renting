@@ -2,6 +2,29 @@
 
 Any thing and every thing renters might find useful.
 
+## Primary legal sources
+
+Official statutes and ordinances. These are distinct from the explanatory handbooks and guides below.
+
+### Federal
+
+- https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap45-subchapI-sec3604.htm
+
+### California
+
+- https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1950.5.&lawCode=CIV
+- https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1954.&lawCode=CIV
+- https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1941.1.&lawCode=CIV
+- https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1942.&lawCode=CIV
+- https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=827.&lawCode=CIV
+- https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1946.2.&lawCode=CIV
+- https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1947.12.&lawCode=CIV
+- https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=789.3.&lawCode=CIV
+
+### Oakland
+
+- https://library.municode.com/ca/oakland/codes/code_of_ordinances?nodeId=TIT8HESARE_CH8.22REREADJUST
+
 ## US Tenant Handbooks and Guides
 
 Resources from non-profits, a state's attorney general or consumer protection division, etc.
